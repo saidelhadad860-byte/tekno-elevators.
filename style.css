@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  text-align: center;
+  background: #0b0b0b;
+  color: white;
+}
+
+/* واتساب */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #d4af37;
+  color: black;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 22px;
+  box-shadow: 0 0 10px #d4af37;
+}
+
+/* الهيدر */
+header {
+  padding: 50px 20px;
+  background: linear-gradient(#000, #1a1a1a);
+  border-bottom: 2px solid #d4af37;
+}
+
+.logo {
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+header h1 span {
+  color: #d4af37;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* زر */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #d4af37;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* أقسام */
+.section {
+  padding: 50px 20px;
+}
+
+.dark {
+  background: #111;
+}
+
+/* خدمات */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #d4af37;
+  padding: 20px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+/* معرض */
+.gallery img {
+  width: 220px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* فوتر */
+footer {
+  background: black;
+  color: #d4af37;
+  padding: 15px;
+  border-top: 2px solid #d4af37;
+}
